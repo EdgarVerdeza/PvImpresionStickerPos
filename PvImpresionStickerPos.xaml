@@ -89,11 +89,11 @@
             <TextBlock Text="Cantidad:" Grid.Row="2" Style="{StaticResource TxTitle}"/>
             <syncfusion:UpDown Name="TxCantidad" Grid.Row="2" Grid.Column="1" Value="1" MinValue="0" MaxValue="100" Width="50" Height="25" NumberDecimalDigits="0" Margin="5 0 0 0" HorizontalAlignment="Left"/>
 
-            <!--<TextBlock Text="Tipo:" Grid.Row="3" Style="{StaticResource TxTitle}"/>
+            <TextBlock Text="Tipo:" Grid.Row="3" Style="{StaticResource TxTitle}"/>
             <syncfusion:ComboBoxAdv Name="CmbTipoRep" Grid.Row="3" Grid.Column="1" VerticalAlignment="Center" Margin="5" Height="25">
                 <syncfusion:ComboBoxItemAdv Content="Etiqueta para muestras"/>
                 <syncfusion:ComboBoxItemAdv Content="Etiqueta para producto terminado"/>
-            </syncfusion:ComboBoxAdv>-->
+            </syncfusion:ComboBoxAdv>
 
             <StackPanel Grid.Row="4" Grid.ColumnSpan="2" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
                 <Button Name="BtnImprimir" Content="Imprimir" Style="{StaticResource BtnStyle}" Width="100" Height="30" Margin="5" Click="BtnImprimir_Click"/>
